@@ -1,8 +1,62 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background-image: url("/images/darkBG.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
 }
 
-a {
-  color: #00B7FF;
+.article-img-layout {
+	overflow: auto;
+}
+
+.img-article {
+	float: left;
+}
+
+#img1-index-layout {
+	width: 250px;
+	height: 137px;
+	margin-left: 25%;
+	margin-top: 1%;
+	margin-right: 20%;
+}
+#img2-index-layout {
+	width: 250px;
+	height: 137px;
+	margin-top: 1%;
+}
+
+.nav-index-layout {
+	overflow: auto;
+	background-image: url("/images/barra-transparente.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.ul-nav-index {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.li-ul-nav {
+	float: left;
+	margin: 10px;
+	margin-left: 20px;
+}
+
+#li-1 {
+	margin-left: 30%;
+}
+
+.li-ul-nav a {
+	font-size: 18px;
+	color: #fff;
+	font-family: Comic Sans MS;
+	text-decoration: none;
+}
+.li-ul-nav a:hover{
+	color: #d4f300;
+
 }
